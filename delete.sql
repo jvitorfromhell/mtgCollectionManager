@@ -1,1 +1,1 @@
-DROP DATABASE mtgCollectionManager;
+DROP DATABASE mtgCollectionManager CASCADE;
