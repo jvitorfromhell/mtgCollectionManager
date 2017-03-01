@@ -3,7 +3,12 @@ INSERT INTO Usuario VALUES
     ('anaLegs', 'Ana Pernas', 'anaLegs@inf.ufpel.edu.br');
     
 INSERT INTO Carta VALUES
-	();
+	('Floresta', 'Terreno Basico', 'C', 0);
 
-INTO INTO Armazenamento VALUES
-	();
+INSERT INTO Armazenamento (dono, tipo, limite) VALUES
+	('jvitorfromhell', 'Pasta', 180),
+    ('anaLegs', 'Pasta', 180);
+    
+INSERT INTO CopiaCarta (nomeCarta, Usuario, Armazenamento) VALUES
+	('Floresta', 'jvitorfromhell', 1),
+    ('Floresta', 'anaLegs', 2);

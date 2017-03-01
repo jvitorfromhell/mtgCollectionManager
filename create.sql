@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS Armazenamento (
     armazenamentoID     INT             NOT NULL AUTO_INCREMENT,
     dono                VARCHAR(30)     NOT NULL,    
     tipo                VARCHAR(30)     NOT NULL,    
-    limite              TINYINT         NOT NULL,
+    limite              INT         NOT NULL,
     PRIMARY KEY(armazenamentoID),
     FOREIGN KEY(dono) REFERENCES Usuario(username)
 ) DEFAULT CHARSET = utf8;
