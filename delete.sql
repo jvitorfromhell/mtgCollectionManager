@@ -7,3 +7,5 @@ select * from Carta;
 select * from CopiaCarta;
 
 select * from Armazenamento;
+
+select * from Formato;
