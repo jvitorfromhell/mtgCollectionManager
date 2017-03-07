@@ -1034,12 +1034,53 @@ INSERT INTO CartaBanidaFormato VALUES
     ("Smugler's Copter", 'Standard'),
     ('Braids, Cabal Minion', 'Commander');
     
-#Ate aqui
-    
 INSERT INTO Armazenamento (dono, tipo, limite) VALUES
 	('jvitorfromhell', 'Pasta', 180),
-    ('anaLegs', 'Pasta', 180);
+    ('anaLegs', 'Pasta', 180),
+    ('bubbles', 'Pasta', 180),
+    ('freitas', 'Pasta', 180),
+    ('yanyantcha', 'Pasta', 180),
+    ('leozerah', 'Pasta', 180);
     
 INSERT INTO CopiaCarta (nomeCarta, Usuario, Armazenamento) VALUES
-	('Floresta', 'jvitorfromhell', 1),
-    ('Floresta', 'anaLegs', 2);
+	('Heritage Druid', 'jvitorfromhell', 1),
+    ('Heritage Druid', 'jvitorfromhell', 1),
+    ('Heritage Druid', 'jvitorfromhell', 1),
+    ('Heritage Druid', 'jvitorfromhell', 1),
+	('Llanowar Elves', 'jvitorfromhell', 1),
+    ('Llanowar Elves', 'jvitorfromhell', 1),
+    ('Llanowar Elves', 'jvitorfromhell', 1),
+    ('Llanowar Elves', 'jvitorfromhell', 1),
+    ('Llanowar Elves', 'jvitorfromhell', 1),
+    ('Llanowar Elves', 'jvitorfromhell', 1),
+    ('Llanowar Elves', 'jvitorfromhell', 1),
+	('Llanowar Elves', 'jvitorfromhell', 1),
+	('Jace, the Mind Sculptor', 'jvitorfromhell', 1),
+    ('Mental Misstep', 'jvitorfromhell', 1),
+    ('Mental Misstep', 'jvitorfromhell', 1),
+    ('Mental Misstep', 'jvitorfromhell', 1),
+    ('Bloodbraid Elf', 'jvitorfromhell', 1),
+    ('Bloodbraid Elf', 'jvitorfromhell', 1),
+    ('Bloodbraid Elf', 'jvitorfromhell', 1),
+    ('Bloodbraid Elf', 'jvitorfromhell', 1),
+    ('Lightning Bolt', 'jvitorfromhell', 1),
+    ('Lightning Bolt', 'jvitorfromhell', 1),
+    ('Lightning Bolt', 'jvitorfromhell', 1),
+    ('Lightning Bolt', 'jvitorfromhell', 1),
+    ('Lightning Bolt', 'jvitorfromhell', 1),
+    ('Nykthos, Shrine to Nyx', 'jvitorfromhell', 1),
+    ('Goblin Guide', 'jvitorfromhell', 1),
+    ('Goblin Guide', 'jvitorfromhell', 1),
+    ('Goblin Guide', 'jvitorfromhell', 1),
+    ('Goblin Guide', 'jvitorfromhell', 1),
+    ('Treasure Cruise', 'jvitorfromhell', 1),
+    ('Treasure Cruise', 'jvitorfromhell', 1),
+    ('Treasure Cruise', 'jvitorfromhell', 1),
+    ('Merfolk Looter', 'jvitorfromhell', 1),
+    ('Merfolk Looter', 'jvitorfromhell', 1),
+    ('Merfolk Looter', 'jvitorfromhell', 1),
+    ('Royal Assassin', 'jvitorfromhell', 1),
+    ('Kemba, Kha Regent', 'jvitorfromhell', 1),
+    ('Chromatic Lantern', 'jvitorfromhell', 1),
+    ('Canopy Vista', 'jvitorfromhell', 1),
+    ('Canopy Vista', 'jvitorfromhell', 1);
