@@ -12,7 +12,9 @@ SELECT DISTINCT carta, formato FROM CartaBanidaFormato, CopiaCarta WHERE CopiaCa
 
 # Consultar todas as cartas azuis de custo dois ou menos validas no formato Modern que determinado usuario tem em sua colecao
 SELECT DISTINCT nomeCarta FROM CopiaCarta WHERE usuario = 'freitas' and nomeCarta IN 
-	(SELECT nome FROM Carta WHERE cor = 'U' and custo <= 2 and nome NOT IN 
+	(SELECT nome FROM Carta WHERE cor = 'U' and custo <= 2 and nome IN
+		(SELECT DISTINCT carta FROM CartaPertenceBloco WHERE bloco IN (SELECT bloco FROM BlocoValidoFormato WHERE formato='Modern'))
+    and nome NOT IN 
 		(SELECT carta FROM CartaBanidaFormato WHERE formato='Modern')
 	)
 ;
